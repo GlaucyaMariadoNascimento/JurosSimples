@@ -9,6 +9,9 @@ namespace JurosSimples
             double valorCapital,tempoMeses,totalJuros,valorMontante;
             double valorJuros = 0.02;
 
+            Console.WriteLine("Juros simples");
+            Console.ReadLine();
+            
             Console.Write("capital [c] (R$).......:");
             valorCapital = Convert.ToDouble(Console.ReadLine());
 
